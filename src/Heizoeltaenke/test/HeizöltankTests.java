@@ -21,6 +21,9 @@ class HeizöltankTests {
     @Order(1)
     void testInputDeliveryMethod() throws InexistantItemException, InvalidDeliveryException {
         tank.Anlieferung(testNum);
+        for (int i = 0; i < 1000; i++) {
+            System.out.println("d");
+        }
         assertEquals(testNum, tank.getFüllstand());
     }
 

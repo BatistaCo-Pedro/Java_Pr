@@ -33,8 +33,7 @@ public class App {
         } 
     }
 
-    private static void Lieferungen()
-    {
+    private static void Lieferungen() {
         if(LagerEins.items.size() == 0){
             System.out.println("Es existieren keine Tänke");
             return;
